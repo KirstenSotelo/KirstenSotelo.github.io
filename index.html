@@ -3,43 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Development with Flask</title>
+    <title>Lab10c Flask - KirstenSotelo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="main-container">
         <div class="problem">
-            <header>
-                <h1>How I Built This Page</h1>
-            </header>
-            <main>
-                <section>
-                    <h2>Installation Steps</h2>
-                    <p>
-                        1. Installed Python and Flask.<br>
-                        2. Set up the Flask project structure.<br>
-                        3. Created a simple route in Flask (`app.py`).<br>
-                        4. Designed this page using an HTML template and CSS.
-                    </p>
-                </section>
-                <section>
-                    <h2>Challenges Faced</h2>
-                    <p>
-                        - Setting up Flask on a VPS for the first time.<br>
-                        - Debugging CSS issues for proper page layout.<br>
-                        - Hosting the page and ensuring the server was publicly accessible.
-                    </p>
-                </section>
-                <section>
-                    <h2>Solutions</h2>
-                    <p>
-                        - Followed Flask's official documentation.<br>
-                        - Used a VPS (DigitalOcean) to deploy the Flask app.<br>
-                        - Debugged CSS using browser developer tools.
-                    </p>
-                </section>
-            </main>
+            <h1>How I Developed This Page</h1>
+            <h2>What is Flask?</h2>
+            <p>
+                Flask is a web development framework that uses Python. It is used <br>
+                for developing websites on a development server. I use flask to develop <br>
+                my html website. <br><br>
+            </p>
+                
+            <h2>How do you use it?</h2>
+            <p>
+                Run 'app.py'. It will open a localhost server, and from there, you can update your <br>
+                website (in my case, index.html), and develop it to your liking. It does not rely on a real <br>
+                server, and the refresh time is instant. This makes developing a website very easy to use <br>
+                and all you need is to have it installed to develop your html website. <br>
+                Once finished, I used github to host it for the public.
+            </p>
         </div>
+
+        <div class="problem">
+            <div>
+                <h2>Flask Installation</h2>
+                <p>
+                    1. Assuming Python already installed. <br>
+                    2. Install Flask in command prompt using pip with command 'pip3 install Flask' <br>
+                    3. Created simple Python program that uses flask to render our html page (index.html). <br>
+                    4. Designed an index.html page, and styled with CSS.
+                </p>
+            </div>
+        </div>
+
+        <div class="problem">
+            <h2>Challenges Faced</h2>
+            <p>
+                - Flask follows specific filepaths (see flask documentation), <br>
+                  this was conflicting with github's hosting requirements. <br>
+                - Ensuring the python app was launching the development server properly.
+            </p>
+        </div>
+
+        <div class="problem">
+            <h2>Solutions</h2>
+                <p>
+                - Followed Flask's documentation to manually set my 'template' and 'static' folders, <br>
+                  to comply with github's requirements <br>
+                - Ensuring the correct 'language mode' I was running was the same as the one with flask installed. <br>
+                  This solution may vary depending on the ide you use (I'm using VSCode).
+            </p>
+        </div>
+
     </div>
     
 </body>
