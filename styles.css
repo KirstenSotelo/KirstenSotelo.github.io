@@ -22,3 +22,7 @@ body {
     background-color: #444444;
     color: white;
 }
+
+.problem p {
+    font-size: 24px;
+}
